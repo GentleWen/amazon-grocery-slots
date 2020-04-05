@@ -8,7 +8,7 @@ Let's stay home as much as possible during this difficult time. This is intended
 ## Usage:
 Supports **MacOS**.
 
-The script works on **Chrome** (```whole_foods_slots.py```) for Whole Foods and (```amazon_fresh_slots.py```) for Amazon Fresh. 
+The script works on **Chrome** (```amazon_wholefoods_slots.py```) for Whole Foods and (```amazon_fresh_slots.py```) for Amazon Fresh. 
 It initializes a  webdriver, for which if you don't have one install it from: https://chromedriver.chromium.org/ for Chrome.
 
 You'll have to update the path of the this installed webdriver under: ```python driver = webdriver.Chrome()``` if its not the default location your OS needs. Similarly, for FireFox ```python driver = webdriver.Firefox(executable_path="<your-webdriver-path>")```
