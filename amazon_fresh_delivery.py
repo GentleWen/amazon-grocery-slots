@@ -21,7 +21,7 @@ def getWFSlot(productUrl):
 
    while no_open_slots:
       driver.refresh()
-      print("refreshed")
+      print("小朋友 你是否有很多问好？？？ 正在为你刷新...", time.ctime(time.time()))
       html = driver.page_source
       soup = bs4.BeautifulSoup(html)
       time.sleep(2)
@@ -30,7 +30,8 @@ def getWFSlot(productUrl):
          open_slots = soup.find('div', class_ ='orderSlotExists').text()
          if open_slots != "false":
             print('SLOTS OPEN!')
-            os.system('say "Slots for delivery opened!"')
+            for x in range(3):
+               os.system('say "Slots for delivery opened!"')
             no_open_slots = False
             time.sleep(1400)
       except AttributeError:
@@ -38,5 +39,3 @@ def getWFSlot(productUrl):
 
 
 getWFSlot('https://www.amazon.com/gp/buy/shipoptionselect/handlers/display.html?hasWorkingJavascript=1')
-
-
