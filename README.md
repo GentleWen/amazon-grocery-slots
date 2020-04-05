@@ -27,7 +27,7 @@ _The script works after you have added all the items to your cart! Note, have yo
 
 
 ### After you clone the project:
-_Walkthrough for Chrome for Whole Foods, follow same steps if running on FireFox with the FireFox script_
+_Walkthrough for Chrome for Amazon Fresh:_
 
 1. Run the requirements.txt (```$ pip install -r requirements.txt```)
    1. install pip with ```sudo easy_install pip``` if you don't have it already.
@@ -54,7 +54,4 @@ _Walkthrough for Chrome for Whole Foods, follow same steps if running on FireFox
 >
 > __Screen 6: Leave script running on this screen!__
 ![alt text](https://github.com/GentleWen/amazon-grocery-slots/blob/master/instruction_img/step6.png)
->
-> __Show case!__
-![alt text](https://github.com/GentleWen/amazon-grocery-slots/blob/master/instruction_img/showcase.mov)
 >
