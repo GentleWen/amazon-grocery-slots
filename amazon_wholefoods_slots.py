@@ -21,7 +21,7 @@ def getWFSlot(productUrl):
 
    while no_open_slots:
       driver.refresh()
-      print("小朋友 你是否有很多问好？？？ 正在为你刷新...", time.ctime(time.time()))
+      print("Hey kid, I guess you got a million questions, but I'm just refreshing slots for you...", time.ctime(time.time()))
       html = driver.page_source
       soup = bs4.BeautifulSoup(html)
       time.sleep(4)
