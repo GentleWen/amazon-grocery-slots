@@ -1,7 +1,6 @@
 # Whole Foods/Amazon Fresh Delivery Slot Automated Script
-
-
-
+Let's stay home as much as possible during this difficult time.
+This is intended to help you find a delivery slot on Amazon.
 
 
 ## Usage:
@@ -34,23 +33,23 @@ _Walkthrough for Chrome for Whole Foods, follow same steps if running on FireFox
 6. Proceed to checkout once you select a time slot. Stay Safe!
 
 > __Screen 1__
-![alt text](https://github.com/tengwenx/Whole-Foods-Delivery-Slot/blob/master/instruction_img/step1.png)
+![alt text](https://github.com/GentleWen/amazon-grocery-slots/blob/master/instruction_img/step1.png)
 
 > __Screen 2__
-![alt text](https://github.com/tengwenx/Whole-Foods-Delivery-Slot/blob/master/instruction_img/step2.png)
+![alt text](https://github.com/GentleWen/amazon-grocery-slots/blob/master/instruction_img/step2.png)
 
 > __Screen 3__
-![alt text](https://github.com/tengwenx/Whole-Foods-Delivery-Slot/blob/master/instruction_img/step3.png)
+![alt text](https://github.com/GentleWen/amazon-grocery-slots/blob/master/instruction_img/step3.png)
 
 > __Screen 4__
-![alt text](https://github.com/tengwenx/Whole-Foods-Delivery-Slot/blob/master/instruction_img/step4.png)
+![alt text](https://github.com/GentleWen/amazon-grocery-slots/blob/master/instruction_img/step4.png)
 
 > __Screen 5__
-![alt text](https://github.com/tengwenx/Whole-Foods-Delivery-Slot/blob/master/instruction_img/step5.png)
+![alt text](https://github.com/GentleWen/amazon-grocery-slots/blob/master/instruction_img/step5.png)
 >
 > __Screen 6: Leave script running on this screen!__
-![alt text](https://github.com/tengwenx/Whole-Foods-Delivery-Slot/blob/master/instruction_img/step6.png)
+![alt text](https://github.com/GentleWen/amazon-grocery-slots/blob/master/instruction_img/step6.png)
 >
 > __Show case!__
-![alt text](https://github.com/tengwenx/Whole-Foods-Delivery-Slot/blob/master/instruction_img/showcase.mov)
+![alt text](https://github.com/GentleWen/amazon-grocery-slots/blob/master/instruction_img/showcase.mov)
 >
