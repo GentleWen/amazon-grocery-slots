@@ -11,20 +11,13 @@ Supports **MacOS**.
 The script works on **Chrome** for Amazon Fresh & wholefoods
 It initializes a  webdriver, for which if you don't have one install it from: https://chromedriver.chromium.org/ for Chrome.
 
-You'll have to update the path of the this installed webdriver under: ```python driver = webdriver.Chrome()``` if its not the default location your OS needs. Similarly, for FireFox ```python driver = webdriver.Firefox(executable_path="<your-webdriver-path>")```
-
 Here's a youtube video for instructions on Chrome Webdriver:  
 https://www.youtube.com/watch?v=-stXyMIrsck
-
 
 Script was written on Python 2.7.10
 (install Python 2.7.10 with command ```brew install python@2```)
 
-
-
 _The script works after you have added all the items to your cart! Note, have your cart ready before running this script! Also, please don't let your computer sleep. Let your computer do the work, while you sleep_
-
-
 
 ### After you clone the project:
 _Walkthrough for Chrome for Amazon Fresh:_
