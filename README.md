@@ -1,19 +1,24 @@
-# Whole Foods/Amazon Fresh Delivery Slot Automated Script
-Let's stay home as much as possible during this difficult time.
-This is intended to help you find a delivery slot on Amazon.
+# Amazon Fresh/Wholefoods Delivery Slot Automated Script
+Let's stay home as much as possible during this difficult time. This is intended to help you find a delivery slot on Amazon.
 
+小朋友 你是否有很多问好？
+- 这是一个自动刷新AmazonFresh/Wholefoods delivery slot的小程序.
+- 目的是希望大家都尽量肥宅在家 能网上下单就别去超市了
 
 ## Usage:
 Supports **MacOS**.
 
-The script works on **Chrome** (```whole_foods_delivery_slot_chrome.py``` for Whole Foods) (```amazon_fresh_delivery_slot_chrome.py``` for Amazon Fresh). 
+The script works on **Chrome** (```whole_foods_delivery_slots.py```) for Whole Foods and (```amazon_fresh_slots.py```) for Amazon Fresh. 
 It initializes a  webdriver, for which if you don't have one install it from: https://chromedriver.chromium.org/ for Chrome.
 
 You'll have to update the path of the this installed webdriver under: ```python driver = webdriver.Chrome()``` if its not the default location your OS needs. Similarly, for FireFox ```python driver = webdriver.Firefox(executable_path="<your-webdriver-path>")```
 
-Script was written on Python 2.7.10
-(install Python 2.7.10 with command ```brew install python@2``)
+Here's a youtube video for instructions on Chrome Webdriver:  
+https://www.youtube.com/watch?v=-stXyMIrsck
 
+
+Script was written on Python 2.7.10
+(install Python 2.7.10 with command ```brew install python@2```)
 
 
 
@@ -26,7 +31,7 @@ _Walkthrough for Chrome for Whole Foods, follow same steps if running on FireFox
 
 1. Run the requirements.txt (```$ pip install -r requirements.txt```)
    1. install pip with ```sudo easy_install pip``` if you don't have it already.
-2. Run whole_foods_delivery_slot_chrome.py (``` $ python amazon_fresh_delivery.py```)
+2. Run Amazon Fresh script (``` $ python amazon_fresh_slots.py```)
 3. The first time you run this script, website will ask you to login. After you login, go to the "Shipping and Payment" window. Its titled: _Schedule your order_. Leave the script running.
 4. Get a nice warm Tea, browse reddit, do something on Xbox, etc.
 5. Once a slot opens the script will verbally notify you of an open slot.
