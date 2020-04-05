@@ -8,7 +8,7 @@ Let's stay home as much as possible during this difficult time. This is intended
 ## Usage:
 Supports **MacOS**.
 
-The script works on **Chrome** (```amazon_wholefoods_slots.py```) for Whole Foods and (```amazon_fresh_slots.py```) for Amazon Fresh. 
+The script works on **Chrome** for Amazon Fresh & wholefoods
 It initializes a  webdriver, for which if you don't have one install it from: https://chromedriver.chromium.org/ for Chrome.
 
 You'll have to update the path of the this installed webdriver under: ```python driver = webdriver.Chrome()``` if its not the default location your OS needs. Similarly, for FireFox ```python driver = webdriver.Firefox(executable_path="<your-webdriver-path>")```
@@ -31,7 +31,7 @@ _Walkthrough for Chrome for Whole Foods, follow same steps if running on FireFox
 
 1. Run the requirements.txt (```$ pip install -r requirements.txt```)
    1. install pip with ```sudo easy_install pip``` if you don't have it already.
-2. Run Amazon Fresh script (``` $ python amazon_fresh_slots.py```)
+2. Run Amazon Fresh script (``` $ python amazon_grocery_slots.py```)
 3. The first time you run this script, website will ask you to login. After you login, go to the "Shipping and Payment" window. Its titled: _Schedule your order_. Leave the script running.
 4. Get a nice warm Tea, browse reddit, do something on Xbox, etc.
 5. Once a slot opens the script will verbally notify you of an open slot.
