@@ -6,15 +6,16 @@ Let's stay home as much as possible during this difficult time. This is intended
 - 目的是希望大家都尽量肥宅在家 能网上下单就别去超市了
 
 ## Usage:
-Supports **MacOS**.
+Supports **MacOS, Windows**.
 
 The script works on **Chrome** for Amazon Fresh & wholefoods
 It initializes a  webdriver, for which if you don't have one install it from: https://chromedriver.chromium.org/ for Chrome.
 
-Here's a youtube video for instructions on Chrome Webdriver:  
-https://www.youtube.com/watch?v=-stXyMIrsck
+Youtube video for instructions on Chrome Webdriver:  
+Mac: https://www.youtube.com/watch?v=-stXyMIrsck
+Windows: https://www.youtube.com/watch?v=dz59GsdvUF8
 
-Script was written on Python 2.7.10
+Script written on Python 2.7
 (install Python 2.7.10 with command ```brew install python@2```)
 
 _The script works after you have added all the items to your cart! Note, have your cart ready before running this script! Also, please don't let your computer sleep. Let your computer do the work, while you sleep_
